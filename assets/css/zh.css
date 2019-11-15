@@ -1,0 +1,548 @@
+.store1 .banner {
+  position: relative;
+}
+.store1 .banner .picBox {
+  background-color: #000;
+}
+.store1 .banner .picBox > img {
+  opacity: 0.5;
+}
+.store1 .banner .Tmsg {
+  position: absolute;
+  width: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 1200px;
+  margin: auto;
+}
+.store1 .banner .Tmsg > span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  height: 164px;
+  top: -160px;
+  bottom: 0;
+  margin: auto;
+  line-height: 120px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.store1 .banner .Tmsg > span:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #21c400;
+  opacity: 0;
+}
+.store1 .banner .Tmsg > span > b {
+  display: block;
+  height: 68px;
+}
+.store1 .banner .Tmsg > span > a {
+    width: 150px;
+    height: 37px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;letter-spacing: 0;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+    margin-top: 30px;
+    display: block;
+    position: relative;
+}
+.store1 .Tpage .Tmid {
+  width: 86%;
+  margin: auto;
+  max-width: 1200px;
+}
+.store1 .Tpage .r1 {
+  position: relative;
+}
+.store1 .Tpage .r1 .Tmid {
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+.store1 .Tpage .r1 .Tmid h2 {
+  color: #7e8080;
+  text-align: right;
+  padding: 48px 0;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 6px;
+}
+.store1 .Tpage .r1 .Tmid > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 54%;
+  left: 0;
+  margin: auto;
+}
+.store1 .Tpage .r2 .Tmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 60px 0;
+}
+.store1 .Tpage .r2 .Tmid .left {
+  width: 45%;
+  position: relative;
+}
+.store1 .Tpage .r2 .Tmid .left img {
+  display: inline-block;
+  width: 75%;
+}
+.store1 .Tpage .r2 .Tmid .right {
+  width: 55%;
+  padding: 0 10%;
+  position: relative;
+}
+.store1 .Tpage .r2 .Tmid .right .msg {
+  position: relative;
+  height: 50%;
+}
+.store1 .Tpage .r2 .Tmid .right .msg h3 {
+  display: inline-block;
+  position: relative;
+  margin-left: 80%;
+}
+.store1 .Tpage .r2 .Tmid .right .msg h3 font {
+  font-size: 24px;
+  color: #5e5e62;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  width: 24px;
+  height: 120px;
+}
+.store1 .Tpage .r2 .Tmid .right .msg h3:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  background-color: #e3e3e3;
+  top: 140px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.store1 .Tpage .r2 .Tmid .right .msg h3:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  width: 15px;
+  height: 70px;
+  background-color: #fec214;
+}
+.store1 .Tpage .r2 .Tmid .right .msg small {
+  color: #7e8080;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: absolute;
+  left: 77%;
+  top: 0;
+  transform-origin: 0 15%;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+.store1 .Tpage .r2 .Tmid .right p {
+  color: #7e8080;
+  font-size: 14px;
+}
+.store1 .Tpage .r2 .Tmid .right .dot1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.store1 .Tpage .r2 .Tmid .right .dot2 {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
+.store1 .Tpage .r3 {
+  margin-bottom: 50px;
+}
+.store1 .Tpage .r3 .Tmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 60px 0;
+}
+.store1 .Tpage .r3 .Tmid .left {
+  width: 45%;
+}
+.store1 .Tpage .r3 .Tmid .left .msg {
+  width: 80%;
+}
+.store1 .Tpage .r3 .Tmid .left small {
+  display: block;
+  position: relative;
+  color: #404145;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 50px;
+}
+.store1 .Tpage .r3 .Tmid .left small:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 38px;
+  background-color: #404145;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.store1 .Tpage .r3 .Tmid .left h3 {
+  color: #404145;
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.store1 .Tpage .r3 .Tmid .left h3:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+  height: 20px;
+  width: 80px;
+  background-color: #fec214;
+  z-index: -1;
+}
+.store1 .Tpage .r3 .Tmid .left p {
+  color: #7e8080;
+  font-size: 14px;
+}
+.store1 .Tpage .r3 .Tmid .right {
+  width: 55%;
+  padding: 20px 0;
+  position: relative;
+}
+.store1 .Tpage .r3 .Tmid .right img {
+  position: relative;
+  z-index: 10;
+}
+.store1 .Tpage .r3 .Tmid .right:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: -24px;
+  width: 80px;
+  background-color: #fec214;
+}
+.store1 .Tpage .r4 {
+  position: relative;
+}
+.store1 .Tpage .r4 .Tmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 0;
+}
+.store1 .Tpage .r4 .Tmid > img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.store1 .Tpage .r4 .Tmid .right {
+  width: 45%;
+  position: relative;
+  z-index: 5;
+}
+.store1 .Tpage .r4 .Tmid .right h3 {
+  color: #404145;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.store1 .Tpage .r4 .Tmid .right p {
+  color: #7e8080;
+  font-size: 14px;
+}
+.store1 .Tpage .r4 .Tmid .left {
+  width: 55%;
+  position: relative;
+  z-index: 5;
+}
+.store1 .Tpage .r4 .Tmid .left img {
+  position: relative;
+  z-index: 10;
+  width: 90%;
+}
+.store1 .Tpage .r5 .Tmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eee;
+}
+.store1 .Tpage .r5 .Tmid .left {
+  width: 45%;
+}
+.store1 .Tpage .r5 .Tmid .left h3 {
+  color: #7e8080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  width: 90%;
+}
+.store1 .Tpage .r5 .Tmid .left h3 > small {
+  display: inline-block;
+  background-color: #fec214;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.store1 .Tpage .r5 .Tmid .left p {
+  color: rgba(129, 128, 128, 0.12);
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 80px;
+  font-weight: lighter;
+}
+.store1 .Tpage .r5 .Tmid .right {
+  width: 55%;
+}
+.store1 .Tpage .r5 .Tmid .right img {
+  width: 78%;
+  margin-left: 10%;
+}
+.store1 .Tpage .r6 .Tmid {
+  padding: 70px 0;
+}
+.store1 .Tpage .r6 .Tmid h3 {
+  position: relative;
+  margin-bottom: 40px;
+  color: #5e5e62;
+}
+.store1 .Tpage .r6 .Tmid h3 small {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+.store1 .Tpage .r6 .Tmid div {
+  text-align: center;
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.store1 .Tpage .r6 .Tmid div img {
+  display: block;
+  margin: auto;
+}
+.store1 .Tpage .r6 .Tmid div > a {
+  display: inline-block;
+  background-color: #fec214;
+  margin-top: 30px;
+  color: #fff;
+  padding: 5px 26px;
+  font-size: 12px;
+}
+.z-pc {
+  display: block;
+}
+.z-app {
+  display: none!important;
+}
+@media screen and (max-width: 600px) {
+  .z-app {
+    display: block!important;
+  }
+  .z-pc {
+    display: none!important;
+  }
+    .store1 .banner .Tmsg{
+        width: 89%;
+    }
+    .store1 .banner .Tmsg > span > b{
+        font-size: 18px;height: 25px;
+        font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica, STXihei, 'PingFang SC','Hiragino Sans GB',Arial,sans-serif;
+    }
+    .store1 .banner .Tmsg > span{
+        height: 95px;
+    }
+
+  .store1 .Tpage .Tmid {
+    width: 90%;
+  }
+  .store1 .Tpage .r1 .Tmid h2 {
+    padding: 35px 0;letter-spacing: 0;
+    font-size: 16px;
+  }
+  .store1 .Tpage .r2 .Tmid {
+    flex-wrap: wrap;
+    position: relative;
+    display: block;
+    padding: 30px 0;
+  }
+  .store1 .Tpage .r2 .Tmid .left {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    height: 40%;
+  }
+  .store1 .Tpage .r2 .Tmid .left > img {
+    height: 110%;
+    width: auto;
+  }
+  .store1 .Tpage .r2 .Tmid .right {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 100px;
+  }
+  .store1 .Tpage .r2 .Tmid .right .msg {
+    height: 260px;
+  }
+  .store1 .Tpage .r2 .Tmid .right .dot1 {
+    width: 50px;
+  }
+  .store1 .Tpage .r2 .Tmid .right .dot2 {
+    width: 50px;
+    bottom: 42%;
+  }
+  .store1 .Tpage .r3 .Tmid {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .store1 .Tpage .r3 .Tmid .left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .store1 .Tpage .r3 .Tmid .left h3 {
+    margin-bottom: 20px;
+  }
+  .store1 .Tpage .r3 .Tmid .left .msg {
+    width: 100%;
+  }
+  .store1 .Tpage .r3 .Tmid .right {
+    width: 100%;
+  }
+  .store1 .Tpage .r4 .Tmid {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .store1 .Tpage .r4 .Tmid .left {
+    width: 100%;
+  }
+  .store1 .Tpage .r4 .Tmid .left img {
+    width: 100%;
+  }
+  .store1 .Tpage .r4 .Tmid .right {
+    width: 100%;
+  }
+  .store1 .Tpage .r4 .Tmid .right h3 {
+    margin-bottom: 18px;
+  }
+  .store1 .Tpage .r5 .Tmid {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .store1 .Tpage .r5 .Tmid .left {
+    width: 100%;
+  }
+  .store1 .Tpage .r5 .Tmid .left p {
+    display: none;
+  }
+  .store1 .Tpage .r5 .Tmid .left img {
+    width: 100%;
+  }
+  .store1 .Tpage .r5 .Tmid .right {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .store1 .Tpage .r5 .Tmid .right img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .store1 .Tpage .r5 .Tmid .right h3 {
+    margin-bottom: 18px;
+  }
+  .store1 .Tpage .r6 .Tmid {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .store1 .Tpage .r6 .Tmid h3 {
+    margin-bottom: 18px;
+  }
+}
+.fadeInLeftSmall {
+  animation-name: fadeInLeftSmall;
+}
+@keyframes fadeInRightSmall {
+  from {
+    opacity: 0;
+    transform: translate3d(10px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInRightSmall {
+  animation-name: fadeInRightSmall;
+}
+@keyframes fadeInDownSmall {
+  from {
+    opacity: 0;
+    transform: translate3d(0%, -10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDownSmall {
+  animation-name: fadeInDownSmall;
+}
+@keyframes fadeOutDownSmall {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0%, 10px, 0);
+  }
+}
+.fadeOutDownSmall {
+  animation-name: fadeOutDownSmall;
+}
+@keyframes fadeInUpSmall {
+  from {
+    opacity: 0;
+    transform: translate3d(0%, 10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUpSmall {
+  animation-name: fadeInUpSmall;
+}

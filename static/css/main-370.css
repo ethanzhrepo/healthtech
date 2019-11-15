@@ -1,0 +1,142 @@
+@media screen and (max-width: 374px) {
+    /* 字号 */
+    .ft-26 {
+        font-size: 20px;
+    }
+
+    .index .banner {
+        height: 240px;
+    }
+    /* 明星产品 */
+    .product.product-yi .page-6p .pic img {
+        min-width: 200px;
+    }
+    .product.product-yi .page-2p {
+        background-size: 160%;
+    }
+    .product.product-yi .page-5 .width-1200 .page-slides .page-img img {
+        height: 30%;
+    }
+
+    .product.product-cozzia .page-1 .page-text p {
+        letter-spacing: 16px;
+    }
+    .product.product-cozzia .page-text {
+        top: 40px;
+    }
+    .product.product-cozzia .page-7 .page-img {
+        width: 320px;
+        height: 400px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(1) {
+        top: -11px;
+        left: 186px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(2) {
+        top: 20px;
+        left: 60px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(3) {
+        top: 34px;
+        left: 156px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(4) {
+        top: 38px;
+        left: 102px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(5) {
+        top: 65px;
+        left: 135px;
+    }
+    .product.product-cozzia .page-7 .page-img ul li:nth-child(6) {
+        top: 168px;
+        left: 193px;
+    }
+
+    .product.product-medisana .page-1 .width-1200 .page-text .page-1-li {
+        width: 300px;
+    }
+    .product.product-medisana .page-1 .width-1200 .page-1-right {
+        width: 50%;
+    }
+    .product.product-medisana .page-3 .page-3-box .page-3-cen {
+        width: 155px;
+    }
+    .product.product-medisana .page-4 .width-1200 .page-img {
+        background-size: 170px;
+    }
+
+    .product.product-fuji .page-6 .page-img img {
+        height: 70%;
+    }
+    .product.product-fuji .page-7 .width-1200 .page-slides .page-img img {
+        height: 26%;
+    }
+
+    .product.product-fujimedic .page-1 .page-img img {
+        transform: scale(1);
+    }
+    .product.product-fujimedic .page-2 .picMove .Tpic {
+        height: 320px;
+    }
+    .product.product-fujimedic .page-2 .picMove .Tbox {
+        width: 220px;
+        height: 220px;
+    }
+    .product.product-fujimedic .page-2 .picMove .p3 {
+        top: 140px;
+        left: 30px;
+    }
+    .product.product-fujimedic .page-2 .page-fuwen {
+        display: none;
+    }
+    .product.product-fujimedic .page-3 .picMove .Tbox {
+        width: 220px;
+        height: 220px;
+    }
+
+
+    .research .banner {
+        height: 160px;
+    }
+    .research #YFQT .pt-tab .pt-right .pt-tu, .research #HJQK .pt-tab .pt-right .pt-tu {
+        min-height: auto;
+    }
+
+
+    .jidi-1 .Tpage .Tmid .right .Tcon .Trow.r3 > .Tmsg .leftCol > h5,
+    .jidi-1 .Tpage .Tmid .right .Tcon .Trow.r3 > .Tmsg .rightCol > h5 {
+        font-size: 18px;
+        height: 35px;
+    }
+
+    .service-app .Tpage .Tmid .Trow.r1 .left > .aBtn {
+        font-size: 14px;
+    }
+    .service-app .Tpage .Tmid .Trow.r1 .right .appItem > li > span > .aBtn {
+        font-size: 12px;
+    }
+
+    .new .banner .component .Tmsg > ul > li {
+        max-width: 40%;
+    }
+
+    .nexus .subject .tab-top ul li {
+        width: 50px;
+        height: 50px;
+    }
+    .nexus .subject .tab-top ul li:nth-child(3) span {
+        width: 100%;
+    }
+    .nexus .subject .tab-nei ul .list .tiao .tiao-btn {
+        margin-left: 30px;
+    }
+
+    .cooperation-agent .cooperation-agent-content #CZJH .abc-box {
+        height: 140px;
+    }
+
+    .cooperation-agent .cooperation-agent-content #PPSN .box-three .list .list-right {
+        text-align: center;
+    }
+}

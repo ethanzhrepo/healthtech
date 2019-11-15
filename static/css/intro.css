@@ -1,0 +1,532 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura Koyu.otf');
+    src: local('☺'), url('fonts/Futura Koyu.woff') format('woff'), url('fonts/Futura Koyu.ttf') format('truetype'), url('fonts/Futura Koyu.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_MyriadPro-Regular';
+    src: url('fonts/MyriadPro-Regular.eot');
+    src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.intro-banner {
+    width: 100%;
+    height: 274px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.intro-banner:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro-banner p {
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 100px;
+    position: relative;
+}
+.intro-nei .intro-banner p {
+    line-height: 274px;
+    padding-top: 0;
+    position: relative;
+}
+.intro-banner a {
+    width: 150px;
+    height: 37px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+    margin-top: 30px;
+    display: block;
+    position: relative;
+}
+.intro-cen {
+
+}
+.intro-cen .intro-cen-list {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+.intro-cen .intro-cen-list:last-child {
+    border-bottom: none;
+}
+.intro-cen .intro-cen-list .intro-list-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+.intro-cen .intro-cen-list .intro-list-title span {
+    font-weight: lighter;
+    color: #999;
+}
+.intro-cen .intro-cen-list .intro-list-title img {
+    /*width: 250px;*/
+    /*height: 54px;*/
+}
+
+.intro-cen .intro-cen-list.list-1 {
+    margin-top: 70px;
+}
+.intro-cen .intro-cen-list.list-1 p {
+    font-size: 13px;
+    color: #7e8080;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+.intro-cen .intro-cen-list.list-1 p span {
+    font-size: 24px;
+    color: #00cd2c;
+    font-weight: bold;
+}
+
+.intro-cen .intro-cen-list.list-2 .swiper-container,
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper {
+    height: 320px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid rgba(0,0,0,.4);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide {
+    width: 204px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide:not(:first-child) {
+    margin-left: -65px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide div {
+    position: absolute;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide .year {
+    width: 80px;
+    height:30px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Conv_MyriadPro-Regular;
+    background-color: #fff;
+    top: 132px;
+    left: 0;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide .shu {
+    width: 1px;
+    height: 77px;
+    background-color: #20c401;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.down .shu {
+    top: 170px;
+    left: 10px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.up .shu {
+    height: 120px;
+    top: 8px;
+    left: 10px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide .dian {
+    width: 5px;
+    height: 5px;
+    background-color: #20c401;
+    border-radius: 100%;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.down .dian {
+    top: 247px;
+    left: 8px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.up .dian {
+    top: 3px;
+    left: 8px;
+}
+
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide .text {
+    width: 120px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7e8080;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.down .text {
+    top: 238px;
+    left: 23px;
+}
+.intro-cen .intro-cen-list.list-2 .swiper-container .swiper-wrapper .swiper-slide.up .text {
+    top: -5px;
+    left: 23px;
+}
+/* 3 */
+.intro-cen .intro-cen-list.list-3 .daoyu {
+    font-size: 14px;
+    line-height: 26px;
+    color: #7e8080;
+}
+.intro-cen .intro-cen-list.list-3 ul {
+    margin: 40px -100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro-cen .intro-cen-list.list-3 ul li {
+    width: 270px;
+    height: 73px;
+    background-color: #fafafa;
+    margin: 38px 98px;
+    position: relative;
+    transition: all .3s;
+}
+.intro-cen .intro-cen-list.list-3 ul li img {
+    position: absolute;
+    top: -17px;
+    left: -21px;
+}
+.intro-cen .intro-cen-list.list-3 ul li p {
+    line-height: 73px;
+    font-size: 14px;
+    color: #4b4c4c;
+    text-align: center;
+}
+.intro-cen .intro-cen-list.list-3 ul li:hover {
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    transform: scale(1.1);
+}
+.intro-cen .intro-cen-list.list-3 ul li:hover p {
+    color: #20c401;
+}
+/* 4 */
+.intro-cen .intro-cen-list.list-4 .list-4-ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro-cen .intro-cen-list.list-4 .list-4-ul .list-4-ul-li-ul li {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 10px;
+    position: relative;
+}
+.intro-cen .intro-cen-list.list-4 .list-4-ul .list-4-ul-li-ul li::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #20c401;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+/* cozzia */
+.intro-cozzia .intro-cen .intro-cen-list.list-1 p:not(:last-child) {
+    margin-bottom: 20px;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 .left ul li {
+    margin-bottom: 30px;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 .left ul li div {
+    font-size: 17px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 14px;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 .left ul li p {
+    font-size: 14px;
+    color: #8b8c8c;
+    line-height: 28px;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 .left ul li p span {
+    color: #00cd2c;
+}
+.intro-cozzia .intro-cen .intro-cen-list.list-2 .right {
+    width: 670px;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+.intro-fuji .intro-cen .intro-cen-list p:not(:last-child) {
+    margin-bottom: 20px;
+}
+.intro-fuji .intro-cen .intro-cen-list p span {
+    font-size: 24px;
+    color: #00cd2c;
+}
+.intro-fuji .intro-cen .intro-cen-list.list-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro-fuji .intro-cen .intro-cen-list.list-2 .left {
+    width: calc(100% - 550px);
+}
+.intro-fuji .intro-cen .intro-cen-list.list-2 .right {
+    width: 484px;
+    height: 352px;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.intro-fuji .intro-cen .intro-cen-list.list-3 .list-img {
+    margin-top: 60px;
+}
+/* fujimedic */
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .top div {
+    font-size: 17px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .top p {
+    width: 310px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8b8c8c;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li {
+    /*cursor: pointer;*/
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li.da {
+    width: 372px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li.xiao {
+    width: 181px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li .li-img {
+    position: relative;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li .li-img .zhe {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li .li-img .zhe i {
+    color: #00cd2c;
+    font-size: 42px;
+    line-height: 279px;
+    text-align: center;
+    display: block;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li p {
+    font-size: 14px;
+    text-align: center;
+    color: #8b8c8c;
+    margin-top: 20px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-2 .bottom ul li:hover .li-img .zhe {
+    opacity: 1;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .title {
+    font-size: 17px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list {
+    width: 480px;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list .main {
+    font-size: 14px;
+    color: #00cd2c;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list div {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    font-weight: bold;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list p {
+    height: 110px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #8b8c8c;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list .chanpin-img {
+    height: 162px;
+    position: relative;
+}
+.intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list .chanpin-img img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-1 .list-1-img {
+    margin-top: 40px;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 p {
+    font-size: 14px;
+    color: #7e8080;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 p span {
+    font-size: 24px;
+    color: #00cd2c;
+    font-weight: bold;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img {
+    margin-top: 40px;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img.list-2-img-bottom {
+    margin-bottom: 40px;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img ul li {
+    margin-right: 50px;
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-1 .list-img {
+    margin-top: 40px;
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-1 .list-img img {
+    width: 100%;
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    margin-bottom: -50px;
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-2 .left {
+    width: calc(100% - 386px);
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-2 .left p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #7e8080;
+    margin-bottom: 20px;
+}
+.intro-ogawa .intro-cen .intro-cen-list.list-2 .left p span {
+    font-size: 24px;
+    color: #00cd2c;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1450px) {
+    .intro-cen .intro-cen-list.list-3 ul {
+        margin: 40px -40px 0;
+    }
+    .intro-cen .intro-cen-list.list-3 ul li {
+        margin: 20px 40px;
+    }
+    .intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin .chanpin-list {
+        width: 440px;
+    }
+}
+@media all and (max-width: 768px) {
+    .intro-banner {
+        height: 200px;
+    }
+    .intro-fuji .intro-banner {
+        background-position: 550px center;
+    }
+	 .intro-fuji .ihoco_m_banner {
+        background-position: 750px center;
+    }
+    .intro-banner p {
+        font-size: 18px;
+        text-indent: 20px;
+        padding-top: 60px;
+    }
+    .intro-banner a {
+        margin-left: 20px;
+    }
+    .intro-nei .intro-banner p {
+        line-height: 200px;
+    }
+    .intro-cen .intro-cen-list {
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-bottom: 25px;
+        padding-bottom: 30px;
+    }
+    .intro-nei .intro-cen .intro-cen-list.list-3 ul {
+        margin: 40px 0 0;
+    }
+    .intro-cen .intro-cen-list .intro-list-title {
+        margin-bottom: 20px;
+    }
+    .intro-cen .intro-cen-list.list-1 {
+        margin-top: 30px;
+    }
+    .intro-cen .intro-cen-list.list-3 ul li {
+        margin: 20px auto;
+    }
+    .intro-fuji .intro-cen .intro-cen-list.list-2 .left {
+        width: 100%;
+    }
+    .intro-fujimedic .intro-cen .intro-cen-list.list-3 .chanpin {
+        border-bottom: none;
+    }
+    .intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img ul li {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .intro-medisana .intro-cen .intro-cen-list.list-2 .list-2-img ul li img {
+        display: block;
+        margin: auto;
+    }
+    .intro-ogawa .intro-cen .intro-cen-list.list-1 .list-img {
+        margin-top: 20px;
+    }
+    .intro-ogawa .intro-cen .intro-cen-list.list-2 .left,
+    .intro-ogawa .intro-cen .intro-cen-list.list-2 .right {
+        width: 100%;
+    }
+    .intro-ogawa .intro-cen .intro-cen-list.list-2 .right img {
+        display: block;
+        margin: auto;
+    }
+}
